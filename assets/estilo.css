@@ -1,0 +1,33 @@
+/* Hoja de estilos - Actividad 1.2.2 */
+
+/* Menú: fondo azul, enlaces blancos */
+.custom-navbar {
+  background-color: #003366 !important;
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff !important;
+  margin: 0 10px;
+}
+
+.custom-navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Para que el botón de menú móvil se vea en fondo oscuro */
+.custom-toggler {
+  background-color: #ffffff;
+}
+
+/* Extracto de la empresa: centrado */
+.extracto {
+  max-width: 700px;
+}
+
+/* Pie de página: fondo negro */
+.custom-footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
